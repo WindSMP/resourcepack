@@ -2,14 +2,17 @@ name: Build and Release Resource Pack
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +30,25 @@ jobs:
       - name: Calculate SHA1
         run: |
           sha1sum resource-pack.zip | awk '{print $1}' > resource-pack.zip.sha1
+
+      - name: Upload resource pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-pack
+          path: |
+            resource-pack.zip
+            resource-pack.zip.sha1
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download resource pack
+        uses: actions/download-artifact@v4
+        with:
+          name: resource-pack
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
