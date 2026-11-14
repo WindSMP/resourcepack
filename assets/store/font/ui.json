@@ -1,0 +1,616 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_0_0.png",
+   "height": 128,
+   "ascent": -19,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_256_0.png",
+   "height": 128,
+   "ascent": -19,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_512_0.png",
+   "height": 128,
+   "ascent": -19,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_768_0.png",
+   "height": 128,
+   "ascent": -19,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_0_256.png",
+   "height": 32,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_256_256.png",
+   "height": 32,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_512_256.png",
+   "height": 32,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/panel_768_256.png",
+   "height": 32,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/card_0_0.png",
+   "height": 128,
+   "ascent": -25,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/card_0_256.png",
+   "height": 20,
+   "ascent": -153,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/slot.png",
+   "height": 40,
+   "ascent": -33,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/slot.png",
+   "height": 40,
+   "ascent": -39,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/btn_buy.png",
+   "height": 18,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/btn_owned.png",
+   "height": 18,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/arrow_l.png",
+   "height": 20,
+   "ascent": -89,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/arrow_r.png",
+   "height": 20,
+   "ascent": -89,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/arrow_l_off.png",
+   "height": 20,
+   "ascent": -89,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/arrow_r_off.png",
+   "height": 20,
+   "ascent": -89,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_0_0.png",
+   "height": 128,
+   "ascent": -29,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_256_0.png",
+   "height": 128,
+   "ascent": -29,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_512_0.png",
+   "height": 128,
+   "ascent": -29,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_0_256.png",
+   "height": 12,
+   "ascent": -157,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_256_256.png",
+   "height": 12,
+   "ascent": -157,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/modal_512_256.png",
+   "height": 12,
+   "ascent": -157,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/btn_confirm.png",
+   "height": 20,
+   "ascent": -133,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/btn_cancel.png",
+   "height": 20,
+   "ascent": -133,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_gold.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_gold_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_purple.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_purple_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_green.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_green_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_pink.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_pink_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_blue.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_blue_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_red.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "store:ui/tab_red_sel.png",
+   "height": 22,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/netherite_ingot.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/netherite_ingot.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/totem_of_undying.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/totem_of_undying.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/trial_key.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/trial_key.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ominous_trial_key.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ominous_trial_key.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/name_tag.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/name_tag.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/firework_rocket.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/firework_rocket.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/elytra.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/elytra.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/gold_ingot.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/gold_ingot.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/echo_shard.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/echo_shard.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/heart_of_the_sea.png",
+   "height": 32,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/heart_of_the_sea.png",
+   "height": 32,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}

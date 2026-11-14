@@ -1,0 +1,1885 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_49x45_0.png",
+   "height": 12,
+   "ascent": 8,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_74x68_2.png",
+   "height": 18,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_98x90_0.png",
+   "height": 23,
+   "ascent": 5,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_122x112_2.png",
+   "height": 29,
+   "ascent": 4,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_135x124_1.png",
+   "height": 32,
+   "ascent": 3,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_44x44_0.png",
+   "height": 11,
+   "ascent": -24,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_66x66_2.png",
+   "height": 17,
+   "ascent": -41,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_88x88_0.png",
+   "height": 22,
+   "ascent": -59,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_110x110_2.png",
+   "height": 28,
+   "ascent": -76,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_121x121_1.png",
+   "height": 31,
+   "ascent": -85,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_44x44_0.png",
+   "height": 11,
+   "ascent": -6,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_66x66_2.png",
+   "height": 17,
+   "ascent": -14,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_88x88_0.png",
+   "height": 22,
+   "ascent": -23,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_110x110_2.png",
+   "height": 28,
+   "ascent": -31,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_121x121_3.png",
+   "height": 31,
+   "ascent": -35,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_36x36_2.png",
+   "height": 10,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_54x54_3.png",
+   "height": 15,
+   "ascent": 8,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_72x72_0.png",
+   "height": 18,
+   "ascent": 6,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_90x90_1.png",
+   "height": 23,
+   "ascent": 5,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_99x99_0.png",
+   "height": 25,
+   "ascent": 4,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_214x45_0.png",
+   "height": 12,
+   "ascent": 8,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x68_2.png",
+   "height": 18,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_65x68_2.png",
+   "height": 18,
+   "ascent": 7,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x90_0.png",
+   "height": 23,
+   "ascent": 5,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_172x90_0.png",
+   "height": 23,
+   "ascent": 5,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x112_2.png",
+   "height": 29,
+   "ascent": 4,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_23x112_2.png",
+   "height": 29,
+   "ascent": 4,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x124_1.png",
+   "height": 32,
+   "ascent": 3,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_76x124_1.png",
+   "height": 32,
+   "ascent": 3,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_205x49_3.png",
+   "height": 13,
+   "ascent": 11,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x74_0.png",
+   "height": 19,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_52x74_0.png",
+   "height": 19,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x98_2.png",
+   "height": 25,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_154x98_2.png",
+   "height": 25,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x122_0.png",
+   "height": 31,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x135_0.png",
+   "height": 34,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_52x135_0.png",
+   "height": 34,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_204x49_3.png",
+   "height": 13,
+   "ascent": 11,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_50x74_0.png",
+   "height": 19,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_152x98_2.png",
+   "height": 25,
+   "ascent": 10,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_254x122_0.png",
+   "height": 31,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_49x135_0.png",
+   "height": 34,
+   "ascent": 9,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_151x40_2.png",
+   "height": 11,
+   "ascent": -5,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_226x60_3.png",
+   "height": 16,
+   "ascent": -13,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x80_0.png",
+   "height": 20,
+   "ascent": -22,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_46x80_0.png",
+   "height": 20,
+   "ascent": -22,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x100_1.png",
+   "height": 26,
+   "ascent": -30,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_122x100_1.png",
+   "height": 26,
+   "ascent": -30,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x110_2.png",
+   "height": 28,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_159x110_2.png",
+   "height": 28,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x34_2.png",
+   "height": 9,
+   "ascent": -105,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_82x34_2.png",
+   "height": 9,
+   "ascent": -105,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x51_3.png",
+   "height": 14,
+   "ascent": -163,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_251x51_3.png",
+   "height": 14,
+   "ascent": -163,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x68_0.png",
+   "height": 17,
+   "ascent": -222,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_164x68_0.png",
+   "height": 17,
+   "ascent": -222,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x85_1.png",
+   "height": 22,
+   "ascent": -280,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_77x85_1.png",
+   "height": 22,
+   "ascent": -280,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x94_2.png",
+   "height": 24,
+   "ascent": -309,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_162x94_2.png",
+   "height": 24,
+   "ascent": -309,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_98x34_2.png",
+   "height": 9,
+   "ascent": -105,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_19x51_3.png",
+   "height": 14,
+   "ascent": -163,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_196x68_0.png",
+   "height": 17,
+   "ascent": -222,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_117x85_1.png",
+   "height": 22,
+   "ascent": -280,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_206x94_2.png",
+   "height": 24,
+   "ascent": -309,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_131x28_3.png",
+   "height": 8,
+   "ascent": -123,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_196x42_0.png",
+   "height": 11,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x56_2.png",
+   "height": 15,
+   "ascent": -258,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_6x56_2.png",
+   "height": 15,
+   "ascent": -258,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x70_0.png",
+   "height": 18,
+   "ascent": -326,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_72x70_0.png",
+   "height": 18,
+   "ascent": -326,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x77_2.png",
+   "height": 20,
+   "ascent": -359,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_104x77_2.png",
+   "height": 20,
+   "ascent": -359,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x35_2.png",
+   "height": 10,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_123x35_2.png",
+   "height": 10,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x52_1.png",
+   "height": 14,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x52_1.png",
+   "height": 14,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x70_0.png",
+   "height": 18,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_246x70_0.png",
+   "height": 18,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x88_3.png",
+   "height": 23,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_180x88_3.png",
+   "height": 23,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x96_0.png",
+   "height": 24,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_18x96_0.png",
+   "height": 24,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_32x35_2.png",
+   "height": 10,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_48x52_1.png",
+   "height": 14,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_64x70_0.png",
+   "height": 18,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_80x88_3.png",
+   "height": 23,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_88x96_0.png",
+   "height": 24,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_113x35_2.png",
+   "height": 10,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x52_1.png",
+   "height": 14,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_226x70_0.png",
+   "height": 18,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_26x88_3.png",
+   "height": 23,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_55x96_0.png",
+   "height": 24,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_119x35_2.png",
+   "height": 10,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_178x52_1.png",
+   "height": 14,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_238x70_0.png",
+   "height": 18,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_42x88_3.png",
+   "height": 23,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_71x96_0.png",
+   "height": 24,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_2.png",
+   "height": 12,
+   "ascent": -53,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_2.png",
+   "height": 12,
+   "ascent": -53,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_3.png",
+   "height": 17,
+   "ascent": -85,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_3.png",
+   "height": 17,
+   "ascent": -85,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_0.png",
+   "height": 22,
+   "ascent": -118,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_0.png",
+   "height": 22,
+   "ascent": -118,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_1.png",
+   "height": 28,
+   "ascent": -150,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_1.png",
+   "height": 28,
+   "ascent": -150,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_2.png",
+   "height": 30,
+   "ascent": -166,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_2.png",
+   "height": 30,
+   "ascent": -166,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_3.png",
+   "height": 12,
+   "ascent": -64,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_3.png",
+   "height": 12,
+   "ascent": -64,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_2.png",
+   "height": 17,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_2.png",
+   "height": 17,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_2.png",
+   "height": 22,
+   "ascent": -140,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_2.png",
+   "height": 22,
+   "ascent": -140,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_2.png",
+   "height": 28,
+   "ascent": -178,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_2.png",
+   "height": 28,
+   "ascent": -178,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_1.png",
+   "height": 30,
+   "ascent": -197,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_1.png",
+   "height": 30,
+   "ascent": -197,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_3.png",
+   "height": 12,
+   "ascent": -75,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_3.png",
+   "height": 12,
+   "ascent": -75,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_0.png",
+   "height": 16,
+   "ascent": -119,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_0.png",
+   "height": 16,
+   "ascent": -119,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_2.png",
+   "height": 22,
+   "ascent": -162,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_2.png",
+   "height": 22,
+   "ascent": -162,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_0.png",
+   "height": 27,
+   "ascent": -206,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_0.png",
+   "height": 27,
+   "ascent": -206,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_2.png",
+   "height": 30,
+   "ascent": -227,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_2.png",
+   "height": 30,
+   "ascent": -227,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_3.png",
+   "height": 12,
+   "ascent": -86,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_3.png",
+   "height": 12,
+   "ascent": -86,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_2.png",
+   "height": 17,
+   "ascent": -135,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_2.png",
+   "height": 17,
+   "ascent": -135,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_2.png",
+   "height": 22,
+   "ascent": -184,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_2.png",
+   "height": 22,
+   "ascent": -184,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_2.png",
+   "height": 28,
+   "ascent": -233,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_2.png",
+   "height": 28,
+   "ascent": -233,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_3.png",
+   "height": 31,
+   "ascent": -257,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_3.png",
+   "height": 31,
+   "ascent": -257,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_0.png",
+   "height": 11,
+   "ascent": -98,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_0.png",
+   "height": 11,
+   "ascent": -98,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_2.png",
+   "height": 17,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_2.png",
+   "height": 17,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_0.png",
+   "height": 22,
+   "ascent": -207,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_0.png",
+   "height": 22,
+   "ascent": -207,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_2.png",
+   "height": 28,
+   "ascent": -261,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_2.png",
+   "height": 28,
+   "ascent": -261,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_3.png",
+   "height": 31,
+   "ascent": -288,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_3.png",
+   "height": 31,
+   "ascent": -288,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_0.png",
+   "height": 11,
+   "ascent": -109,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_0.png",
+   "height": 11,
+   "ascent": -109,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_0.png",
+   "height": 16,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_0.png",
+   "height": 16,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_0.png",
+   "height": 22,
+   "ascent": -229,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_0.png",
+   "height": 22,
+   "ascent": -229,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_0.png",
+   "height": 27,
+   "ascent": -289,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_0.png",
+   "height": 27,
+   "ascent": -289,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_0.png",
+   "height": 30,
+   "ascent": -319,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_0.png",
+   "height": 30,
+   "ascent": -319,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_0.png",
+   "height": 11,
+   "ascent": -120,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_0.png",
+   "height": 11,
+   "ascent": -120,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_2.png",
+   "height": 17,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_2.png",
+   "height": 17,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_0.png",
+   "height": 22,
+   "ascent": -251,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_0.png",
+   "height": 22,
+   "ascent": -251,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_2.png",
+   "height": 28,
+   "ascent": -316,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_2.png",
+   "height": 28,
+   "ascent": -316,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_1.png",
+   "height": 30,
+   "ascent": -349,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_1.png",
+   "height": 30,
+   "ascent": -349,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x43_1.png",
+   "height": 11,
+   "ascent": -131,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x43_1.png",
+   "height": 11,
+   "ascent": -131,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x64_2.png",
+   "height": 17,
+   "ascent": -202,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x64_2.png",
+   "height": 17,
+   "ascent": -202,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x86_2.png",
+   "height": 22,
+   "ascent": -273,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x86_2.png",
+   "height": 22,
+   "ascent": -273,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x108_2.png",
+   "height": 28,
+   "ascent": -344,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x108_2.png",
+   "height": 28,
+   "ascent": -344,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x118_1.png",
+   "height": 30,
+   "ascent": -380,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x118_1.png",
+   "height": 30,
+   "ascent": -380,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x31_1.png",
+   "height": 8,
+   "ascent": -145,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_28x31_1.png",
+   "height": 8,
+   "ascent": -145,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x46_2.png",
+   "height": 12,
+   "ascent": -223,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_170x46_2.png",
+   "height": 12,
+   "ascent": -223,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x62_2.png",
+   "height": 16,
+   "ascent": -301,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_56x62_2.png",
+   "height": 16,
+   "ascent": -301,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x78_2.png",
+   "height": 20,
+   "ascent": -379,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x78_2.png",
+   "height": 20,
+   "ascent": -379,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x85_3.png",
+   "height": 22,
+   "ascent": -418,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_141x85_3.png",
+   "height": 22,
+   "ascent": -418,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_105x32_2.png",
+   "height": 9,
+   "ascent": -34,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_158x48_1.png",
+   "height": 13,
+   "ascent": -57,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_210x64_0.png",
+   "height": 16,
+   "ascent": -80,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x80_3.png",
+   "height": 21,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_6x80_3.png",
+   "height": 21,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x88_0.png",
+   "height": 22,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_33x88_0.png",
+   "height": 22,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x101_2.png",
+   "height": 26,
+   "ascent": -47,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_2x101_2.png",
+   "height": 26,
+   "ascent": -47,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x152_3.png",
+   "height": 39,
+   "ascent": -76,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_131x152_3.png",
+   "height": 39,
+   "ascent": -76,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x202_0.png",
+   "height": 51,
+   "ascent": -106,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_4x202_0.png",
+   "height": 51,
+   "ascent": -106,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x248_1.png",
+   "height": 63,
+   "ascent": -135,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_133x248_1.png",
+   "height": 63,
+   "ascent": -135,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x4_1.png",
+   "height": 2,
+   "ascent": -197,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_133x4_1.png",
+   "height": 2,
+   "ascent": -197,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x248_0.png",
+   "height": 62,
+   "ascent": -150,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x248_0.png",
+   "height": 62,
+   "ascent": -150,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_256x30_0.png",
+   "height": 8,
+   "ascent": -212,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/hit_198x30_0.png",
+   "height": 8,
+   "ascent": -212,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}

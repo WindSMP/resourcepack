@@ -1,0 +1,2830 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_768.png",
+   "height": 64,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_1024.png",
+   "height": 64,
+   "ascent": -236,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_0_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_256_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_512_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_768_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1024_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1280_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1536_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_1792_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2048_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/bg_2304_1280.png",
+   "height": 40,
+   "ascent": -300,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_l_0_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_l_240_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_l_0_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_l_240_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_r_0_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_r_240_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_r_0_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_r_240_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_0_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_240_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_480_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_0_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_240_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_b_480_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_bl_0_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_bl_240_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_bl_0_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_bl_240_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_br_0_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_br_240_0.png",
+   "height": 240,
+   "ascent": -340,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_br_0_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/ext_br_240_240.png",
+   "height": 120,
+   "ascent": -580,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_0_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_240_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_480_0.png",
+   "height": 240,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_0_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_240_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/backdrop_480_240.png",
+   "height": 120,
+   "ascent": -220,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_0_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_256_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_512_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_768_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1024_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1280_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1536_0.png",
+   "height": 64,
+   "ascent": 20,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_0_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_256_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_512_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_768_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1024_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1280_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1536_256.png",
+   "height": 64,
+   "ascent": -44,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_0_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_256_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_512_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_768_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1024_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1280_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1536_512.png",
+   "height": 64,
+   "ascent": -108,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_0_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_256_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_512_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_768_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1024_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1280_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:bg/win_1536_768.png",
+   "height": 61,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_callout_l.png",
+   "height": 21,
+   "ascent": -77,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_hint.png",
+   "height": 11,
+   "ascent": -78,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_callout_r.png",
+   "height": 21,
+   "ascent": -77,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_callout_l.png",
+   "height": 21,
+   "ascent": -59,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_hint.png",
+   "height": 11,
+   "ascent": -60,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_callout_r.png",
+   "height": 21,
+   "ascent": -59,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_tip_bottom_0.png",
+   "height": 15,
+   "ascent": -217,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_tip_bottom_240.png",
+   "height": 15,
+   "ascent": -217,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_toobig.png",
+   "height": 6,
+   "ascent": -37,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:ui/size_minus.png",
+   "height": 9,
+   "ascent": -45,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_205x47_3.png",
+   "height": 13,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_205x2_2.png",
+   "height": 1,
+   "ascent": -55,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_204x47_3.png",
+   "height": 13,
+   "ascent": -43,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_204x2_2.png",
+   "height": 1,
+   "ascent": -55,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_151x2_2.png",
+   "height": 1,
+   "ascent": -69,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 8,
+   "ascent": -70,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_243x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_1x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_2x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_4x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_8x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_16x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_32x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_64x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_128x3_3.png",
+   "height": 2,
+   "ascent": -90,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x3_1.png",
+   "height": 1,
+   "ascent": -183,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_12x3_1.png",
+   "height": 1,
+   "ascent": -183,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_5x5_2.png",
+   "height": 2,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x2_1.png",
+   "height": 1,
+   "ascent": -85,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_29x2_1.png",
+   "height": 1,
+   "ascent": -85,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x248_1.png",
+   "height": 63,
+   "ascent": -99,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_128x248_1.png",
+   "height": 63,
+   "ascent": -99,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_1.png",
+   "height": 11,
+   "ascent": -161,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_128x43_1.png",
+   "height": 11,
+   "ascent": -161,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_145x248_1.png",
+   "height": 63,
+   "ascent": -99,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_145x43_1.png",
+   "height": 11,
+   "ascent": -161,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x34_2.png",
+   "height": 9,
+   "ascent": -159,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_82x34_2.png",
+   "height": 9,
+   "ascent": -159,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_sword.png",
+   "height": 8,
+   "ascent": -102,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x124_0.png",
+   "height": 31,
+   "ascent": -176,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_29x124_0.png",
+   "height": 31,
+   "ascent": -176,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_131x28_3.png",
+   "height": 8,
+   "ascent": -177,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_1x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_2x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_4x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_8x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_16x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_32x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_64x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_128x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x4_0.png",
+   "height": 1,
+   "ascent": -204,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_1.png",
+   "height": 12,
+   "ascent": -104,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_1.png",
+   "height": 12,
+   "ascent": -104,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 7,
+   "ascent": -106,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_2.png",
+   "height": 13,
+   "ascent": -117,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_2.png",
+   "height": 13,
+   "ascent": -117,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 7,
+   "ascent": -119,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_2.png",
+   "height": 13,
+   "ascent": -130,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_2.png",
+   "height": 13,
+   "ascent": -130,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 7,
+   "ascent": -133,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_3.png",
+   "height": 13,
+   "ascent": -143,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_3.png",
+   "height": 13,
+   "ascent": -143,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 7,
+   "ascent": -146,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_3.png",
+   "height": 13,
+   "ascent": -156,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_3.png",
+   "height": 13,
+   "ascent": -156,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 7,
+   "ascent": -159,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_0.png",
+   "height": 12,
+   "ascent": -170,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_0.png",
+   "height": 12,
+   "ascent": -170,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 7,
+   "ascent": -172,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x47_0.png",
+   "height": 12,
+   "ascent": -183,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x47_0.png",
+   "height": 12,
+   "ascent": -183,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 7,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x35_2.png",
+   "height": 10,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_123x35_2.png",
+   "height": 10,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_32x35_2.png",
+   "height": 10,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_113x35_2.png",
+   "height": 10,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_119x35_2.png",
+   "height": 10,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_2.png",
+   "height": 12,
+   "ascent": -107,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_2.png",
+   "height": 12,
+   "ascent": -107,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -114,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_3.png",
+   "height": 12,
+   "ascent": -118,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_3.png",
+   "height": 12,
+   "ascent": -118,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -125,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_3.png",
+   "height": 12,
+   "ascent": -129,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_3.png",
+   "height": 12,
+   "ascent": -129,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -136,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_3.png",
+   "height": 12,
+   "ascent": -140,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_3.png",
+   "height": 12,
+   "ascent": -140,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -147,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_0.png",
+   "height": 11,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_0.png",
+   "height": 11,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -158,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_0.png",
+   "height": 11,
+   "ascent": -163,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_0.png",
+   "height": 11,
+   "ascent": -163,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -169,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_0.png",
+   "height": 11,
+   "ascent": -174,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_0.png",
+   "height": 11,
+   "ascent": -174,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -180,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x43_1.png",
+   "height": 11,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x43_1.png",
+   "height": 11,
+   "ascent": -185,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 3,
+   "ascent": -191,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x31_1.png",
+   "height": 8,
+   "ascent": -199,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x31_1.png",
+   "height": 8,
+   "ascent": -199,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_105x32_2.png",
+   "height": 9,
+   "ascent": -88,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x101_2.png",
+   "height": 26,
+   "ascent": -101,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_2x101_2.png",
+   "height": 26,
+   "ascent": -101,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x2_2.png",
+   "height": 1,
+   "ascent": -101,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_2x2_2.png",
+   "height": 1,
+   "ascent": -101,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/ender_eye.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/copper_ingot.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/iron_ingot.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/lapis_lazuli.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/amethyst_shard.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/diamond.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/emerald.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "minecraft:item/nether_star.png",
+   "height": 6,
+   "ascent": -111,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_150x74_1.png",
+   "height": 19,
+   "ascent": -130,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x46_1.png",
+   "height": 12,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x46_1.png",
+   "height": 12,
+   "ascent": -152,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x39_0.png",
+   "height": 10,
+   "ascent": -173,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x39_0.png",
+   "height": 10,
+   "ascent": -173,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x39_0.png",
+   "height": 10,
+   "ascent": -184,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x39_0.png",
+   "height": 10,
+   "ascent": -184,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x39_0.png",
+   "height": 10,
+   "ascent": -195,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x39_0.png",
+   "height": 10,
+   "ascent": -195,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_256x97_2.png",
+   "height": 25,
+   "ascent": -92,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:box/rect_28x97_2.png",
+   "height": 25,
+   "ascent": -92,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}

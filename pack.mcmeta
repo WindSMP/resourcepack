@@ -1,0 +1,97 @@
+{
+ "pack": {
+  "pack_format": 63,
+  "supported_formats": [
+   63,
+   120
+  ],
+  "min_format": 63,
+  "max_format": 120,
+  "description": "Store UI"
+ },
+ "overlays": {
+  "entries": [
+   {
+    "formats": [
+     63,
+     64
+    ],
+    "min_format": 63,
+    "max_format": 64,
+    "directory": "shader_63"
+   },
+   {
+    "formats": [
+     65,
+     74
+    ],
+    "min_format": 65,
+    "max_format": 74,
+    "directory": "shader_65"
+   },
+   {
+    "formats": [
+     75,
+     88
+    ],
+    "min_format": 75,
+    "max_format": 88,
+    "directory": "shader_75"
+   },
+   {
+    "formats": [
+     97,
+     97
+    ],
+    "min_format": 97,
+    "max_format": 97,
+    "directory": "shader_97"
+   },
+   {
+    "formats": [
+     63,
+     64
+    ],
+    "min_format": 63,
+    "max_format": 64,
+    "directory": "skin_63"
+   },
+   {
+    "formats": [
+     69,
+     75
+    ],
+    "min_format": 69,
+    "max_format": 75,
+    "directory": "skin_69"
+   },
+   {
+    "formats": [
+     84,
+     84
+    ],
+    "min_format": 84,
+    "max_format": 84,
+    "directory": "skin_84"
+   },
+   {
+    "formats": [
+     88,
+     88
+    ],
+    "min_format": 88,
+    "max_format": 88,
+    "directory": "skin_88"
+   },
+   {
+    "formats": [
+     97,
+     97
+    ],
+    "min_format": 97,
+    "max_format": 97,
+    "directory": "skin_97"
+   }
+  ]
+ }
+}

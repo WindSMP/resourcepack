@@ -1,0 +1,67 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "gol:ui/spot_0.png",
+   "height": 9,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/shrink_0.png",
+   "height": 9,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/callout_0.png",
+   "height": 27,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/tip_0.png",
+   "height": 15,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/tip_200.png",
+   "height": 15,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/reset_0.png",
+   "height": 9,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:ui/toobig_0.png",
+   "height": 11,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}

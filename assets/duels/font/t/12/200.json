@@ -1,0 +1,29 @@
+{
+ "providers": [
+  {
+   "type": "space",
+   "advances": {
+    " ": 1.25
+   }
+  },
+  {
+   "type": "bitmap",
+   "file": "duels:font/regular.png",
+   "height": 12,
+   "ascent": -180,
+   "chars": [
+    "!\"#$%&'()*+,-./0",
+    "123456789:;<=>?@",
+    "ABCDEFGHIJKLMNOP",
+    "QRSTUVWXYZ[\\]^_`",
+    "abcdefghijklmnop",
+    "qrstuvwxyz{|}~£ª",
+    "«¬°±²·º»×÷ƒ–—…‹›",
+    "ⁿ↑↓∅∈∙√≈≡≤≥⌠⌡─│┌",
+    "┐└┘├┤┬┴┼═║╒╓╔╕╖╗",
+    "╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧",
+    "╨╩╪╫╬▀▄█▌▐░▒▓■●✓"
+   ]
+  }
+ ]
+}

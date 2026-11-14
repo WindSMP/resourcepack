@@ -1,0 +1,733 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/1x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/2x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/4x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/8x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/16x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/32x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/64x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/128x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x1.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x2.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x4.png",
+   "height": 1,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x8.png",
+   "height": 2,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x16.png",
+   "height": 4,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x32.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x64.png",
+   "height": 16,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x128.png",
+   "height": 32,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:box/256x256.png",
+   "height": 64,
+   "ascent": 0,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}
