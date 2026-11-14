@@ -39,6 +39,31 @@ jobs:
             resource-pack.zip
             resource-pack.zip.sha1
 
+  latest:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download resource pack
+        uses: actions/download-artifact@v4
+        with:
+          name: resource-pack
+
+      - name: Update latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Resource Pack
+          body: |
+            Automatically built from the latest commit on `main`.
+
+            Download: https://github.com/${{ github.repository }}/releases/latest/download/resource-pack.zip
+          make_latest: true
+          files: |
+            resource-pack.zip
+            resource-pack.zip.sha1
+
   release:
     if: startsWith(github.ref, 'refs/tags/v')
     needs: build
@@ -56,7 +81,7 @@ jobs:
           name: Resource Pack ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           generate_release_notes: true
-          make_latest: true
+          make_latest: false
           files: |
             resource-pack.zip
             resource-pack.zip.sha1
