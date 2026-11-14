@@ -1,0 +1,40 @@
+name: Build and Release Resource Pack
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create resource pack ZIP
+        run: |
+          zip -r resource-pack.zip . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x "resource-pack.zip" \
+            -x "*.sha1"
+
+      - name: Calculate SHA1
+        run: |
+          sha1sum resource-pack.zip | awk '{print $1}' > resource-pack.zip.sha1
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Resource Pack ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
+          generate_release_notes: true
+          make_latest: true
+          files: |
+            resource-pack.zip
+            resource-pack.zip.sha1
