@@ -24,6 +24,7 @@ jobs:
           zip -r resource-pack.zip . \
             -x ".git/*" \
             -x ".github/*" \
+            -x "tools/*" \
             -x "resource-pack.zip" \
             -x "*.sha1"
 
