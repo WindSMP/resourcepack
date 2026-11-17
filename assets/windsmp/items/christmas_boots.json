@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "windsmp:item/christmas_boots",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -65537
+      }
+    ]
+  }
+}

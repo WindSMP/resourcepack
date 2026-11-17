@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "windsmp:item/christmas_shield",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -65537
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "windsmp:item/christmas_shield_blocking",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -65537
+        }
+      ]
+    }
+  }
+}
