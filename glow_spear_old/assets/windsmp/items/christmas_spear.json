@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "windsmp:item/christmas_spear_plain",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -65537
+      }
+    ]
+  }
+}

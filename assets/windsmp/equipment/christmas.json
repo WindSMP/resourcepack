@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "windsmp:christmas",
+        "dyeable": {
+          "color_when_undyed": -65537
+        }
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "windsmp:christmas",
+        "dyeable": {
+          "color_when_undyed": -65537
+        }
+      }
+    ]
+  }
+}

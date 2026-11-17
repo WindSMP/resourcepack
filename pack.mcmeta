@@ -91,6 +91,60 @@
     "min_format": 97,
     "max_format": 97,
     "directory": "skin_97"
+   },
+   {
+    "formats": [
+     63,
+     64
+    ],
+    "min_format": 63,
+    "max_format": 64,
+    "directory": "glow_63"
+   },
+   {
+    "formats": [
+     69,
+     75
+    ],
+    "min_format": 69,
+    "max_format": 75,
+    "directory": "glow_69"
+   },
+   {
+    "formats": [
+     84,
+     87
+    ],
+    "min_format": 84,
+    "max_format": 87,
+    "directory": "glow_84"
+   },
+   {
+    "formats": [
+     88,
+     88
+    ],
+    "min_format": 88,
+    "max_format": 88,
+    "directory": "glow_88"
+   },
+   {
+    "formats": [
+     97,
+     97
+    ],
+    "min_format": 97,
+    "max_format": 97,
+    "directory": "glow_97"
+   },
+   {
+    "formats": [
+     63,
+     74
+    ],
+    "min_format": 63,
+    "max_format": 74,
+    "directory": "glow_spear_old"
    }
   ]
  }
