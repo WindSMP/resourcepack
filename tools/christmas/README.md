@@ -26,10 +26,13 @@ that trim over the red.
 - `glow_63`, `glow_69`, `glow_84`, `glow_88`, `glow_97`: for each client version from 1.21.6 to 26.3, vanilla's
   shader for worn armor (`entity.fsh`) and its shader for items (`item.fsh`, or
   `rendertype_item_entity_translucent_cull.fsh` before 26.1), each with an addition that is the kit's glint. A shine
-  passes over what carries the kit's mark every six seconds: tilted 35 degrees, rising from the lower edge of the
-  screen to the upper one, a soft glow that fades from a near-white core through pink into the red, with texels
-  glittering inside it, unlit so it shows in the dark. Not on inventory icons: the game draws an icon once and
-  keeps the picture, so a shine would freeze on it.
+  passes over what carries the kit's mark every six seconds, tilted 35 degrees and rising, a soft glow that fades
+  from a near-white core through pink into the red, with texels glittering inside it, unlit so it shows in the dark.
+  The band lies on what carries it: on armor it rises from the feet to the head (armor is drawn on vanilla's
+  humanoid model with its texture laid out box by box, so the texel tells how high up the body it is), on an item it
+  lies on the item's texture. So it passes over a player at the same moment for everyone who sees them, however they
+  look at them, and stays on them as they move. Not on inventory icons: the game draws an icon once and keeps the
+  picture, so a shine would freeze on it.
 - The mark is a tint: red 254 of 255, which no eye sees. The armor's equipment layers carry it (`dyeable`, the way
   leather armor carries its dye) and so do the items' models (in their item definitions). No texture is involved, so
   a skin or another texture cannot carry the mark by accident.

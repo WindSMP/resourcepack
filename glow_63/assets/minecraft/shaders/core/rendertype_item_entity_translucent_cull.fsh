@@ -25,13 +25,12 @@ void main() {
     }
     vec4 color = windsmpSample * vertexColor * ColorModulator;
     if (windsmpMarked && abs(gl_FragCoord.w - 1.0) > 0.0001) {
-        // Across the band: 35 degrees off the vertical, so the band lies 35 degrees off the horizontal and rises.
-        vec2 windsmpAcross = vec2(-0.5735764, 0.8191520);
-        // Where the fragment is, in blocks off the middle of the view: its place on the screen times its distance
-        // (1.4 is twice the tangent of half a 70 degree view). So the band is as wide on a sword in the hand, which
-        // fills half the screen, as on the same sword seen from behind, and as on a player far away.
-        vec2 windsmpPlace = (gl_FragCoord.xy - 0.5 * ScreenSize) / ScreenSize.y * 1.4 / gl_FragCoord.w;
-        float windsmpWay = dot(windsmpPlace, windsmpAcross) / 7.0 - GameTime * 200.0;
+        vec2 windsmpOnAtlas = texCoord0 * vec2(textureSize(Sampler0, 0)) / 16.0;
+        // Across the band: 35 degrees off the vertical towards the texture's right (its rows run downwards), so the
+        // band lies 35 degrees off the horizontal and falls to the right. Vanilla draws a sword, an axe, a pickaxe and
+        // a mace rising to the right, the handle at the lower left: the band crosses them and runs from the handle to
+        // the tip. An eighth of a band per block.
+        float windsmpWay = dot(vec2(windsmpOnAtlas.x, -windsmpOnAtlas.y), vec2(0.5735764, 0.8191520)) * 0.125 - GameTime * 200.0;
         float windsmpOff = abs(fract(windsmpWay) - 0.5);
         // A wide soft glow that fades into the red, and a narrow bright core.
         float windsmpGlow = exp(-(windsmpOff * windsmpOff) / (0.045 * 0.045));
