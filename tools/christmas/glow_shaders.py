@@ -5,16 +5,17 @@
 
 Each argument is the `assets/minecraft` folder of that unpacked client. Vanilla's shader for worn armor and its shader
 for items are taken as they are, with one addition each: what carries the kit's mark is drawn as it is, and a shine
-passes over it every six seconds, tilted 35 degrees, rising from the lower edge of the screen to the upper one: a
-soft glow that fades from a near-white core through pink into the red, with texels glittering inside it, unlit so it
-shows in the dark too. It is the kit's own glint, in place of vanilla's purple one, which the kit's items turn off
-(`enchantment_glint_override=false`). The shine is placed on the screen, not on the texture, so it runs the same way
-over every face, and sized in blocks at the fragment's distance, so it looks the same on an item held up close as
-from behind or far away.
+passes over it every six seconds, tilted 35 degrees and rising: a soft glow that fades from a near-white core through
+pink into the red, with texels glittering inside it, unlit so it shows in the dark too. It is the kit's own glint, in place of vanilla's purple one, which the kit's items turn off
+(`enchantment_glint_override=false`). The shine is placed on what carries it, not on the screen or in the world, so
+it passes over a player at the same moment for everyone who sees them, however they look at them, and stays on
+them as they walk, jump or fall (a band placed on the screen moved as the viewer looked up or down or flew higher; one
+placed in the world moved as the wearer did). Armor is always drawn on vanilla's humanoid model with its texture laid
+out box by box, so the texel tells how high up the body the fragment is, and the band rises from the feet to the
+head. An item's band lies on its texture in the item atlas and rises across it, 35 degrees off the vertical.
 
-The game time and the screen size come from the Globals block. Every client from 1.21.6 on binds that block to any
-shader that declares it, whether or not the pipeline lists it (GlProgram's built-in uniforms), so declaring it here
-is enough.
+The game time comes from the Globals block. Every client from 1.21.6 on binds that block to any shader that declares
+it, whether or not the pipeline lists it (GlProgram's built-in uniforms), so declaring it here is enough.
 
 The mark is a tint (see generate.py): a vertex colour whose red is 254/255 of its green and blue. The armor's
 equipment layers and the items' models carry it. Lighting scales all three alike, so the ratio survives it, and no
@@ -44,16 +45,82 @@ SAMPLER = 'uniform sampler2D Sampler0;\n'
 STATE = SAMPLER + ('\n// WindSMP: how much of the Christmas kit\'s shine is on this fragment, 0 to 1 (see tools/christmas).\n'
                    'float windsmpShine = 0.0;\n')
 # The game time runs from 0 to 1 over a day-night cycle of 1200 seconds: 200 passes of six seconds, a whole number,
-# so the wrap does not show (the glitter's flicker fits it too). One band follows the next 7 blocks behind, measured
-# at the fragment's own distance, so a player or an item has one band on it at a time.
-BODY = """        // Across the band: 35 degrees off the vertical, so the band lies 35 degrees off the horizontal and rises.
-        vec2 windsmpAcross = vec2(-0.5735764, 0.8191520);
-        // Where the fragment is, in blocks off the middle of the view: its place on the screen times its distance
-        // (1.4 is twice the tangent of half a 70 degree view). So the band is as wide on a sword in the hand, which
-        // fills half the screen, as on the same sword seen from behind, and as on a player far away.
-        vec2 windsmpPlace = (gl_FragCoord.xy - 0.5 * ScreenSize) / ScreenSize.y * 1.4 / gl_FragCoord.w;
-        float windsmpWay = dot(windsmpPlace, windsmpAcross) / 7.0 - GameTime * 200.0;
-        float windsmpOff = abs(fract(windsmpWay) - 0.5);
+# so the wrap does not show (the glitter's flicker fits it too). One band follows the next 8 blocks behind, so a
+# player or an item has one band on it at a time.
+#
+# On the wearer: armor is drawn on vanilla's humanoid model, its texture 64 by 32 texels laid out box by box
+# (HumanoidModel.createMesh, whose layout the armor mesh keeps; ModelPart.Cube): a row of top and bottom faces, below
+# it a row of sides. The box is told by where the texel lies, and the texel's place in it tells how high up the body
+# and how far across it the fragment is, in model units: 16 to a block, y downwards from the neck with the feet at 24,
+# x towards the wearer's left; the player is drawn at 15/16. Arms and legs swing with their boxes, so the band stays
+# on the body as the wearer moves. The left arm and leg use the right one's texels, mirrored: a texture that runs the
+# other way round on the screen (ALONG, taken before any branch, where derivatives are
+# defined). Seen on a face that is not mirrored, u runs to the right on the screen and v downwards, so u x v is negative there.
+ON_THE_BODY = """vec2 windsmpOnTexture = texCoord0 * vec2(64.0, 32.0);
+        // The box: its corner on the texture, its width, height and depth, the model height of its top and the model x
+        // of its right side (for an arm or a leg: the right one's).
+        vec2 windsmpCorner; vec3 windsmpSize; float windsmpTop; float windsmpRight;
+        if (windsmpOnTexture.y < 16.0) {
+            // the head, and the hat over it
+            windsmpCorner = vec2(windsmpOnTexture.x < 32.0 ? 0.0 : 32.0, 0.0); windsmpSize = vec3(8.0); windsmpTop = -8.0; windsmpRight = -4.0;
+        } else if (windsmpOnTexture.x < 16.0) {
+            // a leg (boots are drawn on it too)
+            windsmpCorner = vec2(0.0, 16.0); windsmpSize = vec3(4.0, 12.0, 4.0); windsmpTop = 12.0; windsmpRight = -3.9;
+        } else if (windsmpOnTexture.x < 40.0) {
+            // the body
+            windsmpCorner = vec2(16.0, 16.0); windsmpSize = vec3(8.0, 12.0, 4.0); windsmpTop = 0.0; windsmpRight = -4.0;
+        } else {
+            // an arm
+            windsmpCorner = vec2(40.0, 16.0); windsmpSize = vec3(4.0, 12.0, 4.0); windsmpTop = 0.0; windsmpRight = -8.0;
+        }
+        vec2 windsmpInBox = windsmpOnTexture - windsmpCorner;
+        float windsmpDown;
+        float windsmpAcross;
+        if (windsmpInBox.y >= windsmpSize.z) {
+            // The row of sides, from the right side round the front, the left side and the back: down the box.
+            windsmpDown = clamp(windsmpInBox.y - windsmpSize.z, 0.0, windsmpSize.y);
+            float windsmpRound = windsmpInBox.x - windsmpSize.z;
+            windsmpAcross = windsmpRound < 0.0 ? 0.0
+                : windsmpRound < windsmpSize.x ? windsmpRound
+                : windsmpRound < windsmpSize.x + windsmpSize.z ? windsmpSize.x
+                : windsmpSize.x + windsmpSize.z + windsmpSize.x - windsmpRound;
+        } else {
+            // The row above it: the top face, then the bottom face.
+            bool windsmpBottom = windsmpInBox.x >= windsmpSize.z + windsmpSize.x;
+            windsmpDown = windsmpBottom ? windsmpSize.y : 0.0;
+            windsmpAcross = windsmpInBox.x - windsmpSize.z - (windsmpBottom ? windsmpSize.x : 0.0);
+        }
+        float windsmpX = windsmpRight + clamp(windsmpAcross, 0.0, windsmpSize.x);
+        // The left arm or leg: the right one's texels, mirrored.
+        if (windsmpAlongX.x * windsmpAlongY.y - windsmpAlongY.x * windsmpAlongX.y > 0.0) {
+            windsmpX = -windsmpX;
+        }
+        // In blocks above the feet and towards the wearer's left; across the band: 35 degrees off the vertical, an
+        // eighth of a band per block upwards, so seen from the front the band lies 35 degrees off the horizontal and
+        // rises to the right.
+        float windsmpWay = (24.0 - windsmpTop - windsmpDown) / 16.0 * 0.9375 * 0.125
+            - windsmpX / 16.0 * 0.9375 * 0.0875262 - GameTime * 200.0;"""
+# How the texture runs on the screen, for ON_THE_BODY: taken right after the texture is read.
+ALONG = """
+    // WindSMP: how the texture runs on the screen, for the Christmas kit's shine (see tools/christmas).
+    vec2 windsmpAlongX = dFdx(texCoord0);
+    vec2 windsmpAlongY = dFdy(texCoord0);"""
+# On the item: its place on the item atlas, 16 texels to a block. The atlas is the same for everyone with the same
+# client and packs, and the item's texture goes with the item: in the hand, on the ground, in someone else's hand.
+ON_THE_SPRITE = """vec2 windsmpOnAtlas = texCoord0 * vec2(textureSize(Sampler0, 0)) / 16.0;
+        // Across the band: 35 degrees off the vertical towards the texture's right (its rows run downwards), so the
+        // band lies 35 degrees off the horizontal and falls to the right. Vanilla draws a sword, an axe, a pickaxe and
+        // a mace rising to the right, the handle at the lower left: the band crosses them and runs from the handle to
+        // the tip. An eighth of a band per block.
+        float windsmpWay = dot(vec2(windsmpOnAtlas.x, -windsmpOnAtlas.y), vec2(0.5735764, 0.8191520)) * 0.125 - GameTime * 200.0;"""
+
+
+def body(held):
+    """The shine: on the wearer, or for [held] (the item shader) on the item."""
+    return '        ' + (ON_THE_SPRITE if held else ON_THE_BODY) + '\n' + REST
+
+
+REST = """        float windsmpOff = abs(fract(windsmpWay) - 0.5);
         // A wide soft glow that fades into the red, and a narrow bright core.
         float windsmpGlow = exp(-(windsmpOff * windsmpOff) / (0.045 * 0.045));
         float windsmpCore = exp(-(windsmpOff * windsmpOff) / (0.012 * 0.012));
@@ -82,14 +149,14 @@ LIGHT = 'color *= lightMapColor;'
 UNLIT = 'color *= mix(lightMapColor, vec4(1.0), windsmpShine);'
 # The old item shader samples, tints and lights in one line; the shine goes on after it, so it is unlit by itself.
 OLD_SAMPLE = 'vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;'
-OLD_SHINE = """vec4 windsmpSample = texture(Sampler0, texCoord0);
+OLD_SHINE = lambda shine: """vec4 windsmpSample = texture(Sampler0, texCoord0);
     bool windsmpMarked = """ + (ALPHA_MARK % 'windsmpSample') + """;
     if (windsmpMarked) {
         windsmpSample.a = 1.0;
     }
     vec4 color = windsmpSample * vertexColor * ColorModulator;
     if (windsmpMarked && """ + IN_WORLD + """) {
-""" + BODY + "    }"
+""" + shine + "    }"
 TINTED = 'color *= vertexColor * ColorModulator;'
 FACE_TINTED = 'color *= faceVertexColor * ColorModulator;'
 PER_FACE = ('#ifdef PER_FACE_LIGHTING\n'
@@ -115,9 +182,13 @@ def patched(source, name, alpha_items):
     once(source, SAMPLER, name)
     # The state is declared with the sampler, outside any #ifdef, so every variant of the shader has it.
     source = with_globals(source, name).replace(SAMPLER, STATE)
+    BODY = body(name != 'entity')
+    if name == 'entity':
+        once(source, SAMPLE, name)
+        source = source.replace(SAMPLE, SAMPLE + ALONG)
     if name == OLD_ITEM:
         once(source, OLD_SAMPLE, name)
-        return source.replace(OLD_SAMPLE, OLD_SHINE)
+        return source.replace(OLD_SAMPLE, OLD_SHINE(BODY))
     if name == ITEM and alpha_items:
         # 26.1: the mark is the texel's alpha, read before the vertex colour (with the light in it) goes on; the
         # shine goes on after, so it is unlit by itself.
