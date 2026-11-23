@@ -55,3 +55,6 @@ tools/christmas/generate.py <26.3>/assets/minecraft
 
 `glow_shaders.py` stops if vanilla's shader no longer has
 the lines it adds to; a new client version needs a look.
+
+The golden elytra's wing shine (Chasing Gold) lives in the same `entity.fsh` files: run
+`tools/goldevent/wings_shine.py` again after `glow_shaders.py` has rewritten them.

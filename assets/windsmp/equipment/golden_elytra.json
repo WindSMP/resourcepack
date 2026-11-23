@@ -1,0 +1,12 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "windsmp:golden_elytra",
+        "dyeable": {
+          "color_when_undyed": -257
+        }
+      }
+    ]
+  }
+}

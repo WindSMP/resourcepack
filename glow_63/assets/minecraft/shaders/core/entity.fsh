@@ -28,7 +28,7 @@ void main() {
         discard;
     }
 #endif
-    if (color.a > 0.5 && vertexColor.g > 0.0 && abs(vertexColor.r / vertexColor.g - 0.9960784) < 0.0015 && abs(vertexColor.b - vertexColor.g) < 0.0006 && abs(gl_FragCoord.w - 1.0) > 0.0001) {
+    if (abs(color.a - 0.9960784) < 0.002 && vertexColor.g > 0.0 && abs(vertexColor.r / vertexColor.g - 0.9960784) < 0.0015 && abs(vertexColor.b - vertexColor.g) < 0.0006 && abs(gl_FragCoord.w - 1.0) > 0.0001) {
         vec2 windsmpOnTexture = texCoord0 * vec2(64.0, 32.0);
         // The box: its corner on the texture, its width, height and depth, the model height of its top and the model x
         // of its right side (for an arm or a leg: the right one's).
@@ -88,6 +88,31 @@ void main() {
         color.rgb = mix(color.rgb, vec3(1.0), 0.85 * windsmpGlow * windsmpGlint);
         color.rgb = min(color.rgb, vec3(1.0));
         windsmpShine = min(1.0, windsmpGlow + windsmpGlow * windsmpGlint);
+    }
+    // WindSMP: the golden elytra's shine (tools/goldevent/wings_shine.py).
+    if (abs(color.a - 0.9960784) < 0.002 && vertexColor.r > 0.0 && abs(vertexColor.g / vertexColor.r - 0.9960784) < 0.0015 && abs(vertexColor.b - vertexColor.r) < 0.0006 && abs(gl_FragCoord.w - 1.0) > 0.0001) {
+        float windsmpTicks = GameTime * 24000.0;
+        vec2 windsmpWing = texCoord0 * vec2(64.0, 32.0) - vec2(34.0, 2.0);
+        // A wide bright band down the wing, tilted, once every 2.5 s, and a second, fainter one behind it.
+        float windsmpWay = windsmpWing.y / 20.0 * 0.9 + windsmpWing.x / 12.0 * 0.35 - windsmpTicks / 50.0;
+        float windsmpOff = abs(fract(windsmpWay) - 0.5);
+        float windsmpTrail = abs(fract(windsmpWay + 0.22) - 0.5);
+        float windsmpGlow = exp(-(windsmpOff * windsmpOff) / (0.09 * 0.09)) + 0.45 * exp(-(windsmpTrail * windsmpTrail) / (0.05 * 0.05));
+        float windsmpCore = exp(-(windsmpOff * windsmpOff) / (0.025 * 0.025));
+        // Sparkles all over, all the time: each texel flashes at its own beat.
+        vec2 windsmpTexel = floor(texCoord0 * vec2(textureSize(Sampler0, 0)));
+        float windsmpGrain = fract(sin(dot(windsmpTexel, vec2(12.9898, 78.233))) * 43758.5453);
+        float windsmpSparkle = windsmpGrain > 0.78 ? pow(abs(sin(3.14159265 * (windsmpTicks * 0.06 + windsmpGrain * 20.0))), 12.0) : 0.0;
+        // A slow pulse of the whole wing.
+        float windsmpPulse = 0.5 + 0.5 * sin(windsmpTicks * 0.1);
+        color.rgb *= 1.05 + 0.12 * windsmpPulse;
+        color.rgb += windsmpGlow * vec3(0.42, 0.30, 0.06);
+        color.rgb = mix(color.rgb, vec3(1.0, 0.94, 0.66), 0.55 * min(1.0, windsmpGlow * windsmpGlow));
+        color.rgb = mix(color.rgb, vec3(1.0, 0.99, 0.92), 0.85 * windsmpCore);
+        color.rgb = mix(color.rgb, vec3(1.0), 0.95 * windsmpSparkle);
+        color.rgb = min(color.rgb, vec3(1.0));
+        // Unlit: the wings glow, a little always and fully where the light passes.
+        windsmpShine = min(1.0, 0.6 + windsmpGlow + windsmpSparkle);
     }
     color *= vertexColor * ColorModulator;
 #ifndef NO_OVERLAY

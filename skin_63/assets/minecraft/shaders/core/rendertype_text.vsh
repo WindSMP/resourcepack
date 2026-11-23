@@ -1523,6 +1523,16 @@ if (ProjMat[3][3] > 0.5) {   // GUI
     }
     }
     gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
+    // Chasing Gold's golden name: text in exactly (251, 175, 40) shimmers, a band of light sweeping across it from left
+    // to right on the screen once every 2 s (GameTime: 0..1 per day of 24000 ticks), the same in menus, chat and the
+    // world. Its shadow keeps its own colour.
+    if (ivec3(round(Color.rgb * 255.0)) == ivec3(251, 175, 40)) {
+        float screenX = gl_Position.x / max(gl_Position.w, 0.0001);
+        float sweep = fract(GameTime * 24000.0 / 40.0 - screenX * 0.35);
+        float band = exp(-pow((sweep - 0.5) * 7.0, 2.0));
+        float core = exp(-pow((sweep - 0.5) * 22.0, 2.0));
+        color = vec4(mix(mix(vec3(1.0, 0.70, 0.16), vec3(1.0, 0.93, 0.62), band), vec3(1.0), 0.75 * core), Color.a);
+    }
 
     sphericalVertexDistance = fog_spherical_distance(pos);
     cylindricalVertexDistance = fog_cylindrical_distance(pos);

@@ -18,9 +18,9 @@ The game time comes from the Globals block. Every client from 1.21.6 on binds th
 it, whether or not the pipeline lists it (GlProgram's built-in uniforms), so declaring it here is enough.
 
 The mark is a tint (see generate.py): a vertex colour whose red is 254/255 of its green and blue. The armor's
-equipment layers and the items' models carry it. Lighting scales all three alike, so the ratio survives it, and no
-texture is involved: a skin or another pack's texture cannot carry the mark by accident, and no vanilla tint is that
-colour.
+equipment layers and the items' models carry it. Lighting scales all three alike, so the ratio survives it. Dyed
+leather (or wolf) armour can reach that tint, so the shaders also ask for the kit's textures' own alpha, 254: a skin
+can carry that alpha but is drawn untinted, and dyed armour has the tint but vanilla's opaque textures.
 - Worn armor, every version: read in `entity.fsh`, which gets its light apart from the vertex colour.
 - Items from 26.2 on: read in `item.fsh` the same way.
 - Items up to 26.1, in `rendertype_item_entity_translucent_cull.fsh` (1.21.x) and `item.fsh` (26.1): the light map
@@ -138,7 +138,7 @@ REST = """        float windsmpOff = abs(fract(windsmpWay) - 0.5);
 """
 ALPHA_MARK = 'abs(%s.a * 255.0 - 252.0) < 0.5'
 # The tint, on the vertex colour named {0}. The texture's clear texels carry it as well and are left out.
-TINT_MARK = ('color.a > 0.5 && {0}.g > 0.0 && abs({0}.r / {0}.g - 0.9960784) < 0.0015'
+TINT_MARK = ('abs(color.a - 0.9960784) < 0.002 && {0}.g > 0.0 && abs({0}.r / {0}.g - 0.9960784) < 0.0015'
              ' && abs({0}.b - {0}.g) < 0.0006')
 # Not in the inventory. The game draws an item's icon once and keeps the picture: drawn while the shine was on it,
 # the icon stayed pale. Icons are drawn without perspective, where gl_FragCoord.w is exactly 1; in the world it is
