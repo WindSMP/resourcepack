@@ -178,6 +178,16 @@
    "chars": [
     ""
    ]
+  },
+  {
+   "type": "bitmap",
+   "file": "gol:items/wind_tools.png",
+   "height": 8,
+   "ascent": 0,
+   "chars": [
+    "",
+    ""
+   ]
   }
  ]
 }
