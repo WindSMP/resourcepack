@@ -1,0 +1,11 @@
+{
+  "tool.wind": {
+    "subtitle": "Wind tool whooshes",
+    "sounds": [
+      "windsmp:tool/wind1",
+      "windsmp:tool/wind2",
+      "windsmp:tool/wind3",
+      "windsmp:tool/wind4"
+    ]
+  }
+}

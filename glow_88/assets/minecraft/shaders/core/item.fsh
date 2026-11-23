@@ -26,7 +26,7 @@ void main() {
     }
 #endif
 
-    if (color.a > 0.5 && vertexColor.g > 0.0 && abs(vertexColor.r / vertexColor.g - 0.9960784) < 0.0015 && abs(vertexColor.b - vertexColor.g) < 0.0006 && abs(gl_FragCoord.w - 1.0) > 0.0001) {
+    if (abs(color.a - 0.9960784) < 0.002 && vertexColor.g > 0.0 && abs(vertexColor.r / vertexColor.g - 0.9960784) < 0.0015 && abs(vertexColor.b - vertexColor.g) < 0.0006 && abs(gl_FragCoord.w - 1.0) > 0.0001) {
         vec2 windsmpOnAtlas = texCoord0 * vec2(textureSize(Sampler0, 0)) / 16.0;
         // Across the band: 35 degrees off the vertical towards the texture's right (its rows run downwards), so the
         // band lies 35 degrees off the horizontal and falls to the right. Vanilla draws a sword, an axe, a pickaxe and

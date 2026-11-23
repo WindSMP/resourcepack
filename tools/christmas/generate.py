@@ -9,7 +9,8 @@ and shield are Mojang's, so they are not kept in this repository, only what is b
 The armor is netherite recoloured red, and so are the shield and the metal of the sword, axe, pickaxe, spear and mace.
 The shader overlays run a shine across all of it, and know the kit by a tint: red 254 of 255, which no eye sees.
 The armor's equipment layers carry it (the way leather armor carries its dye), and so do the items' models. The
-textures themselves are plain and opaque. Clients up to 26.1 cannot read the tint on an item (their light is already
+textures carry a second mark the shaders ask for as well, an alpha of 254 on every visible texel: dyed leather or
+wolf armour can reach the tint, but their textures are vanilla's and fully opaque, so the tint alone never shines. Clients up to 26.1 cannot read the tint on an item (their light is already
 in the colour there), so their overlays get the item textures once more with alpha 252. See glow_shaders.py.
 """
 import json, os, sys
@@ -23,6 +24,8 @@ RED_RAMP = [(58, 4, 8), (118, 8, 12), (176, 14, 18), (222, 28, 30), (255, 92, 86
 # The alpha that marks an item's texels for the clients up to 26.1. No vanilla texture their item shader draws
 # (items and blocks) has it, counted over the clients from 1.21.8 to 26.1.
 SHINE = 252
+# The alpha every visible texel of the kit's own textures has: the second mark, next to the tint. Still opaque.
+TINT_ALPHA = 254
 # The same tint as a packed ARGB, for an equipment layer.
 SHINE_DYE = {'color_when_undyed': -65537}
 # The tint that marks an item's model: white but for a red of 254, as the packed ARGB that item definitions take.
@@ -36,6 +39,11 @@ def vanilla(path):
 def save(image, path):
     full = os.path.join(OUT, 'textures', path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
+    px = image.load()
+    for y in range(image.height):
+        for x in range(image.width):
+            if px[x, y][3] == 255:
+                px[x, y] = px[x, y][:3] + (TINT_ALPHA,)
     image.save(full)
 
 
@@ -76,7 +84,7 @@ def marked(image):
     px = image.load()
     for y in range(image.height):
         for x in range(image.width):
-            if px[x, y][3] == 255:
+            if px[x, y][3] >= TINT_ALPHA:
                 px[x, y] = px[x, y][:3] + (SHINE,)
     return image
 

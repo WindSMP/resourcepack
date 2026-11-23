@@ -12,8 +12,8 @@ They are checked in here as static files so the network pack is complete without
 | `assets/windsmp/layout/store/glyphs.json` | store menu glyph layout the plugin reads (`Glyphs`) |
 
 Halls, in registration (= codepoint) order: `demo, settings, stats, leaderboard, welcome_welcome, welcome_rules,
-welcome_media, rtp, welcome_store, crates`, then `advent` (U+E122..U+E13E, drawn by `tools/halls/advent/generate.py`, not by
-the prototype); per hall 29 tiles: backdrop (6 x 2), plain (7 x 2), window (3 x 1).
+welcome_media, rtp, welcome_store, crates`, then `advent` (U+E122..U+E13E, `tools/halls/advent/generate.py`) and `gold`
+(U+E13F..U+E15B, `tools/halls/gold/generate.py`), drawn by those generators, not by the prototype; per hall 29 tiles: backdrop (6 x 2), plain (7 x 2), window (3 x 1).
 Within a hall, tiles are cut row by row (y, then x), back to front. Codepoints are assigned sequentially
 (backdrop, plain, window per hall), so the glyph for a tile is the `chars` entry of its provider in `hall.json`.
 
@@ -32,3 +32,5 @@ Java2D rendering can differ between JDK versions; rerun on the same JDK if you w
 
 The `advent` hall (Core's /advent dialog) is drawn by `python3 tools/halls/advent/generate.py` (Pillow), which also adds
 its glyphs to `hall.json`. Copy `hall.json` to Core's `dialog/hall.json` afterwards.
+
+The `gold` hall (Core's /chasinggold dialog) is drawn by `python3 tools/halls/gold/generate.py` the same way.
