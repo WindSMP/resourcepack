@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "WindSMP",
+    "description": "WindSMP's items for Bedrock players",
+    "uuid": "1913fed1-9ecd-4ebe-822e-e0c9ccf9ee0b",
+    "version": [
+      1,
+      0,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5958d92d-25d6-460c-9558-8fdcdbaf63c3",
+      "version": [
+        1,
+        0,
+        4
+      ]
+    }
+  ]
+}

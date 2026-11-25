@@ -17,6 +17,35 @@
           "type": "minecraft:model",
           "model": "minecraft:item/netherite_pickaxe"
         }
+      },
+      {
+        "threshold": 9201,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "gui"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "windsmp:item/wind_gold_pickaxe_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "windsmp:item/wind_gold_pickaxe"
+          }
+        }
+      },
+      {
+        "threshold": 9202,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_pickaxe"
+        }
       }
     ],
     "fallback": {

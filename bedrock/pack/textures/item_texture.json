@@ -1,0 +1,101 @@
+{
+  "resource_pack_name": "windsmp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "windsmp.wind_pickaxe": {
+      "textures": [
+        "textures/items/windsmp/wind_pickaxe"
+      ]
+    },
+    "windsmp.wind_gold_pickaxe": {
+      "textures": [
+        "textures/items/windsmp/wind_gold_pickaxe"
+      ]
+    },
+    "windsmp.wind_axe": {
+      "textures": [
+        "textures/items/windsmp/wind_axe"
+      ]
+    },
+    "windsmp.wind_shovel": {
+      "textures": [
+        "textures/items/windsmp/wind_shovel"
+      ]
+    },
+    "windsmp.wind_bucket": {
+      "textures": [
+        "textures/items/windsmp/wind_bucket"
+      ]
+    },
+    "windsmp.wind_sell_axe": {
+      "textures": [
+        "textures/items/windsmp/wind_sell_axe"
+      ]
+    },
+    "windsmp.golden_elytra": {
+      "textures": [
+        "textures/items/windsmp/golden_elytra"
+      ]
+    },
+    "windsmp.golden_ticket": {
+      "textures": [
+        "textures/items/windsmp/golden_ticket"
+      ]
+    },
+    "windsmp.gold_coin": {
+      "textures": [
+        "textures/items/windsmp/gold_coin"
+      ]
+    },
+    "windsmp.christmas_helmet": {
+      "textures": [
+        "textures/items/windsmp/christmas_helmet"
+      ]
+    },
+    "windsmp.christmas_chestplate": {
+      "textures": [
+        "textures/items/windsmp/christmas_chestplate"
+      ]
+    },
+    "windsmp.christmas_leggings": {
+      "textures": [
+        "textures/items/windsmp/christmas_leggings"
+      ]
+    },
+    "windsmp.christmas_boots": {
+      "textures": [
+        "textures/items/windsmp/christmas_boots"
+      ]
+    },
+    "windsmp.christmas_sword": {
+      "textures": [
+        "textures/items/windsmp/christmas_sword"
+      ]
+    },
+    "windsmp.christmas_axe": {
+      "textures": [
+        "textures/items/windsmp/christmas_axe"
+      ]
+    },
+    "windsmp.christmas_pickaxe": {
+      "textures": [
+        "textures/items/windsmp/christmas_pickaxe"
+      ]
+    },
+    "windsmp.christmas_spear": {
+      "textures": [
+        "textures/items/windsmp/christmas_spear"
+      ]
+    },
+    "windsmp.christmas_mace": {
+      "textures": [
+        "textures/items/windsmp/christmas_mace"
+      ]
+    },
+    "windsmp.christmas_shield": {
+      "textures": [
+        "textures/items/windsmp/christmas_shield"
+      ]
+    }
+  }
+}

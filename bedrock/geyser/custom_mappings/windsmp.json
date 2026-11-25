@@ -1,0 +1,244 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:netherite_pickaxe": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9101,
+        "bedrock_identifier": "windsmp:wind_pickaxe",
+        "display_name": "Wind Pickaxe",
+        "bedrock_options": {
+          "icon": "windsmp.wind_pickaxe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 9201,
+        "bedrock_identifier": "windsmp:wind_gold_pickaxe",
+        "display_name": "Golden Wind Pickaxe",
+        "bedrock_options": {
+          "icon": "windsmp.wind_gold_pickaxe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      },
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_pickaxe",
+        "bedrock_identifier": "windsmp:christmas_pickaxe",
+        "display_name": "Christmas Pickaxe",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_pickaxe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_axe": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9102,
+        "bedrock_identifier": "windsmp:wind_axe",
+        "display_name": "Wind Axe",
+        "bedrock_options": {
+          "icon": "windsmp.wind_axe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      },
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_axe",
+        "bedrock_identifier": "windsmp:christmas_axe",
+        "display_name": "Christmas Axe",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_axe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_shovel": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9103,
+        "bedrock_identifier": "windsmp:wind_shovel",
+        "display_name": "Wind Shovel",
+        "bedrock_options": {
+          "icon": "windsmp.wind_shovel",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:bucket": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9104,
+        "bedrock_identifier": "windsmp:wind_bucket",
+        "display_name": "Wind Bucket",
+        "bedrock_options": {
+          "icon": "windsmp.wind_bucket",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:golden_axe": [
+      {
+        "type": "legacy",
+        "custom_model_data": 9110,
+        "bedrock_identifier": "windsmp:wind_sell_axe",
+        "display_name": "Sell Axe",
+        "bedrock_options": {
+          "icon": "windsmp.wind_sell_axe",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:elytra": [
+      {
+        "type": "definition",
+        "model": "windsmp:golden_elytra",
+        "bedrock_identifier": "windsmp:golden_elytra",
+        "display_name": "Golden Elytra",
+        "bedrock_options": {
+          "icon": "windsmp.golden_elytra",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:paper": [
+      {
+        "type": "definition",
+        "model": "windsmp:golden_ticket",
+        "bedrock_identifier": "windsmp:golden_ticket",
+        "display_name": "Golden Ticket",
+        "bedrock_options": {
+          "icon": "windsmp.golden_ticket",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      },
+      {
+        "type": "definition",
+        "model": "windsmp:gold_coin",
+        "bedrock_identifier": "windsmp:gold_coin",
+        "display_name": "Gold Coin",
+        "bedrock_options": {
+          "icon": "windsmp.gold_coin",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_helmet": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_helmet",
+        "bedrock_identifier": "windsmp:christmas_helmet",
+        "display_name": "Christmas Helmet",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_helmet",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_chestplate": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_chestplate",
+        "bedrock_identifier": "windsmp:christmas_chestplate",
+        "display_name": "Christmas Chestplate",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_chestplate",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_leggings": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_leggings",
+        "bedrock_identifier": "windsmp:christmas_leggings",
+        "display_name": "Christmas Leggings",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_leggings",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_boots": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_boots",
+        "bedrock_identifier": "windsmp:christmas_boots",
+        "display_name": "Christmas Boots",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_boots",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_sword": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_sword",
+        "bedrock_identifier": "windsmp:christmas_sword",
+        "display_name": "Christmas Sword",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_sword",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:netherite_spear": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_spear",
+        "bedrock_identifier": "windsmp:christmas_spear",
+        "display_name": "Christmas Spear",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_spear",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:mace": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_mace",
+        "bedrock_identifier": "windsmp:christmas_mace",
+        "display_name": "Christmas Mace",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_mace",
+          "display_handheld": true,
+          "creative_category": "equipment"
+        }
+      }
+    ],
+    "minecraft:shield": [
+      {
+        "type": "definition",
+        "model": "windsmp:christmas_shield",
+        "bedrock_identifier": "windsmp:christmas_shield",
+        "display_name": "Christmas Shield",
+        "bedrock_options": {
+          "icon": "windsmp.christmas_shield",
+          "display_handheld": false,
+          "creative_category": "equipment"
+        }
+      }
+    ]
+  }
+}
