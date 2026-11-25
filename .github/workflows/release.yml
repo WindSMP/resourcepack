@@ -25,8 +25,16 @@ jobs:
             -x ".git/*" \
             -x ".github/*" \
             -x "tools/*" \
+            -x "bedrock/*" \
             -x "resource-pack.zip" \
             -x "*.sha1"
+
+      # The Bedrock side (bedrock/, made by tools/bedrock/generate.py): the pack Geyser sends Bedrock players and
+      # Geyser's item mappings for it.
+      - name: Create Bedrock pack
+        run: |
+          (cd bedrock/pack && zip -r -X ../../windsmp-bedrock.mcpack .)
+          cp bedrock/geyser/custom_mappings/windsmp.json windsmp-geyser-mappings.json
 
       - name: Calculate SHA1
         run: |
@@ -39,6 +47,8 @@ jobs:
           path: |
             resource-pack.zip
             resource-pack.zip.sha1
+            windsmp-bedrock.mcpack
+            windsmp-geyser-mappings.json
 
   latest:
     if: github.ref == 'refs/heads/main'
@@ -64,6 +74,8 @@ jobs:
           files: |
             resource-pack.zip
             resource-pack.zip.sha1
+            windsmp-bedrock.mcpack
+            windsmp-geyser-mappings.json
 
   release:
     if: startsWith(github.ref, 'refs/tags/v')
@@ -86,3 +98,5 @@ jobs:
           files: |
             resource-pack.zip
             resource-pack.zip.sha1
+            windsmp-bedrock.mcpack
+            windsmp-geyser-mappings.json

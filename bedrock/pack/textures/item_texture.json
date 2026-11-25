@@ -1,0 +1,51 @@
+{
+  "resource_pack_name": "windsmp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "windsmp.wind_bucket": {
+      "textures": [
+        "textures/items/windsmp/wind_bucket"
+      ]
+    },
+    "windsmp.golden_elytra": {
+      "textures": [
+        "textures/items/windsmp/golden_elytra"
+      ]
+    },
+    "windsmp.golden_ticket": {
+      "textures": [
+        "textures/items/windsmp/golden_ticket"
+      ]
+    },
+    "windsmp.gold_coin": {
+      "textures": [
+        "textures/items/windsmp/gold_coin"
+      ]
+    },
+    "windsmp.christmas_helmet": {
+      "textures": [
+        "textures/items/windsmp/christmas_helmet"
+      ]
+    },
+    "windsmp.christmas_chestplate": {
+      "textures": [
+        "textures/items/windsmp/christmas_chestplate"
+      ]
+    },
+    "windsmp.christmas_leggings": {
+      "textures": [
+        "textures/items/windsmp/christmas_leggings"
+      ]
+    },
+    "windsmp.christmas_boots": {
+      "textures": [
+        "textures/items/windsmp/christmas_boots"
+      ]
+    },
+    "windsmp.christmas_shield": {
+      "textures": [
+        "textures/items/windsmp/christmas_shield"
+      ]
+    }
+  }
+}
