@@ -2,34 +2,9 @@
   "resource_pack_name": "windsmp",
   "texture_name": "atlas.items",
   "texture_data": {
-    "windsmp.wind_pickaxe": {
-      "textures": [
-        "textures/items/windsmp/wind_pickaxe"
-      ]
-    },
-    "windsmp.wind_gold_pickaxe": {
-      "textures": [
-        "textures/items/windsmp/wind_gold_pickaxe"
-      ]
-    },
-    "windsmp.wind_axe": {
-      "textures": [
-        "textures/items/windsmp/wind_axe"
-      ]
-    },
-    "windsmp.wind_shovel": {
-      "textures": [
-        "textures/items/windsmp/wind_shovel"
-      ]
-    },
     "windsmp.wind_bucket": {
       "textures": [
         "textures/items/windsmp/wind_bucket"
-      ]
-    },
-    "windsmp.wind_sell_axe": {
-      "textures": [
-        "textures/items/windsmp/wind_sell_axe"
       ]
     },
     "windsmp.golden_elytra": {
@@ -65,31 +40,6 @@
     "windsmp.christmas_boots": {
       "textures": [
         "textures/items/windsmp/christmas_boots"
-      ]
-    },
-    "windsmp.christmas_sword": {
-      "textures": [
-        "textures/items/windsmp/christmas_sword"
-      ]
-    },
-    "windsmp.christmas_axe": {
-      "textures": [
-        "textures/items/windsmp/christmas_axe"
-      ]
-    },
-    "windsmp.christmas_pickaxe": {
-      "textures": [
-        "textures/items/windsmp/christmas_pickaxe"
-      ]
-    },
-    "windsmp.christmas_spear": {
-      "textures": [
-        "textures/items/windsmp/christmas_spear"
-      ]
-    },
-    "windsmp.christmas_mace": {
-      "textures": [
-        "textures/items/windsmp/christmas_mace"
       ]
     },
     "windsmp.christmas_shield": {
