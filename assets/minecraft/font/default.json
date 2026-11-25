@@ -1,0 +1,22 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "windsmp:font/logo.png",
+   "height": 48,
+   "ascent": 8,
+   "chars": [
+    ""
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "windsmp:font/logo_small.png",
+   "height": 24,
+   "ascent": 8,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}
