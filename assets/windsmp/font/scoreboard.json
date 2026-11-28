@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "windsmp:font/scoreboard/gold_banner.png",
+      "height": 13,
+      "ascent": 9,
+      "chars": [
+        "\ue000"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue001": -137,
+        "\ue002": 4
+      }
+    }
+  ]
+}
