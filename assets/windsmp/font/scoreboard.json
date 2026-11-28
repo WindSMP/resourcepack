@@ -6,14 +6,15 @@
       "height": 13,
       "ascent": 9,
       "chars": [
-        "\ue000"
+        "\ue000\ue003"
       ]
     },
     {
       "type": "space",
       "advances": {
         "\ue001": -137,
-        "\ue002": 4
+        "\ue002": 4,
+        "\ue004": -1
       }
     }
   ]
